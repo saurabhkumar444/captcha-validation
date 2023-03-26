@@ -1,0 +1,60 @@
+.formPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBody {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border: 1px solid black;
+  box-shadow: 2px 5px 8px 1px #888888;
+  padding: 20px 8px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.formInput {
+  outline: none;
+  padding: 6px 4px;
+  font-size: 15px;
+  width: 200px;
+}
+
+.captchaDiv {
+  display: flex;
+  column-gap: 10px;
+}
+
+.reloadIcon {
+  height: 30px;
+  cursor: pointer;
+}
+
+.captchaBox {
+  border: 1px solid black;
+  padding: 5px 10px;
+  word-spacing: 5px;
+}
+
+.errorText {
+  text-align: center;
+  color: red;
+}
+
+.btn-signUp {
+  padding: 8px 0;
+  cursor: pointer;
+  /* background-color: ; */
+}
+
+.successText {
+  text-align: center;
+  color: green;
+}
